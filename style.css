@@ -1,0 +1,42 @@
+body {
+    background-color: lightpink;
+    text-align: center;
+}
+a{
+    list-style-type: none;
+    color: red(75, 12, 12);
+}
+li{
+    
+    display: inline;
+    margin: 10px;
+    color: red (255, 244, 248);
+  }
+
+  ul {
+    margin: 0px
+    padding: 0px
+    font-size: x-large;  
+    }
+
+a:hover {
+          background-color:deeppink;
+          }
+a:link {
+    color:rgb(255, 255, 255);
+  }
+  a:active {
+    color:white;
+  }
+a[href="#top"]{
+    display: block;
+    text-align: center;
+    background-color: deeppink;
+    color: 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+a[href="#top"]:active{
+    color: black;
+}
